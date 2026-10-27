@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# local data, runs, checkpoints, outputs -- never commit these
+/data/
+/runs/
+/eval_results/
+*.pt
+*.pkl
+*.jsonl
+
+# secrets -- never commit these
+*.env
+.secrets/

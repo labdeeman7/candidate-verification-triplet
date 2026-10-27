@@ -1,0 +1,17 @@
+# Core training/inference (Qwen3-VL + QLoRA)
+torch>=2.1
+transformers>=4.57
+peft>=0.13
+datasets>=2.19
+accelerate>=0.33
+qwen-vl-utils==0.0.14
+Pillow
+
+# ResNet-50 baseline
+torchvision
+
+# Scoring (ivtmetrics + annotation conversion)
+numpy<2
+opencv-python-headless
+scikit-learn
+matplotlib
