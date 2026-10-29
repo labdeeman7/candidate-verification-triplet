@@ -16,17 +16,13 @@ only what's needed to train and evaluate the three reported methods.
 
 ## Headline results (AP$_{IVT}$, CholecTriplet-Seg test split)
 
-| Method | GT-grounded | Complete pipeline |
-|---|---|---|
-| **Candidate Verification (ours)** | 16.51 | **15.22** |
-| Direct SFT (single-shot baseline) | 13.94 ± 0.49 | 14.20 ± 1.08 |
-| ResNet-50 interaction classifier (negative control) | 13.24 ± 1.40 | 11.84 ± 0.90 |
-| TargetFusionNet (single-stage joint baseline) | - | 13.51 |
+| Method | Complete pipeline |
+|---|---|
+| **Candidate Verification (ours)**  | 15.74±1.31 |
+| Direct SFT (single-shot baseline) | 14.20 ± 1.08 |
+| ResNet-50 interaction classifier (negative control) | 11.84 ± 0.90 |
+| TargetFusionNet (single-stage joint baseline) | 13.51 |
 
-GT-grounded = Stage 2 shown ground-truth instrument masks (isolates Stage
-2's semantic prediction quality). Complete pipeline = Stage 2 shown Stage
-1's actual predicted masks (the real deployed system). Direct SFT / ResNet
-numbers are 3-seed mean ± sample std.
 
 ## Repository layout
 
