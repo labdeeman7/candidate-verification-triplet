@@ -141,6 +141,9 @@ pipeline produced no output for (detector found nothing, or every proposal
 was rejected) — these are scored as empty predictions, not silently
 excluded. See the module's docstring for why this matters.
 
+## Checkpoints
+Coming soon.
+
 ## Citation
 
 If you use this code, please cite the paper (citation details added on
